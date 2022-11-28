@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Press Start 2P", cursive;
+  background: rgb(207, 204, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(207, 204, 255, 1) 20%,
+    rgba(168, 213, 232, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.background-clouds {
+  height: 100vh;
+}
+.container-angelcat {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60vh;
+  left: 20vw;
+  transform: translate(-50%, -50%);
+}
+
+.container-angelcat {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 57%;
+  left: 10%;
+}
+.content-angelcat {
+  margin: 1rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content-angelcat-chatbox {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+}
+
+.content-cat {
+  transform: rotateY(180deg);
+}
+
+.chatbox-text {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0.4rem;
+}
+
+.content-title {
+  position: absolute;
+  top: 15vh;
+  left: 50vw;
+  color: rgb(255, 22, 22);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-decoration: underline;
+  padding-bottom: 8rem;
+}
+.scoreboard-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+.scoreboard {
+  border: 2px solid red;
+  color: rgb(208, 54, 54);
+  background-color: black;
+  padding: 50px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.scoreboard ol div {
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.3rem;
+}
+
+.scoreboard li {
+  padding: 0.5rem;
+}
+
+.scoreboard-player {
+  padding-top: 2rem;
+  color: red;
+}
+
+#top-candidate {
+  font-size: 1.2rem;
+  background-color: aliceblue;
+}
+
+.press-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn-playagain {
+  font-family: "Press Start 2P", cursive;
+  color: red;
+  margin: 1rem;
+  padding: 1rem;
+  border-color: red;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.btn-playagain:hover {
+  font-family: "Press Start 2P", cursive;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  transition: 0.5s;
+  padding: 0.8rem;
+  border-color: red;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.btn-playagain:active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.container-cat {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 33%;
+  right: 2%;
+}
+
+.content-cat-chatbox {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  height: 100px;
+}
